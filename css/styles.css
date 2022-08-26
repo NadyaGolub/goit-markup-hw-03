@@ -80,7 +80,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  position: absolute;
   margin-right: 93px;
 }
 
@@ -90,17 +89,24 @@ body {
   display: flex;
 }
 
+.site-nav:not(:last-child) {
+  margin-right: 50px;
+}
+
 .current-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  margin-right: 50px;
 }
 .current-title:hover,
 .current-title :focus {
   color: var(--accent-color);
+}
+
+.site-nav-contacts:not(:last-child) {
+  margin-right: 50px;
 }
 
 .current-contacts {
@@ -109,7 +115,6 @@ body {
   font-size: 14px;
   line-height: 1.2px;
   letter-spacing: 0.02em;
-  margin-right: 50px;
 }
 .current-contacts:hover,
 .current-contacts:focus {
@@ -122,7 +127,6 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  margin-right: 50px;
 }
 
 .contacts {
@@ -171,8 +175,9 @@ body {
   width: 216px;
   min-height: 50px;
   border-radius: 4px;
-  display: flex;
-  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
 
 .section {
@@ -236,12 +241,13 @@ body {
   text-align: center;
   cursor: pointer;
   padding: 6px 22px;
-  display: inline-block;
   min-width: 73px;
   min-height: 38px;
   border-radius: 4px;
   border: 1px solid transparent;
-  margin-right: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .button:hover,
 .button:focus {
