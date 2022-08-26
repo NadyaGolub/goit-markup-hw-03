@@ -74,8 +74,8 @@ body {
 /* Шапка */
 .page-header {
   background-color: var(--primary-text-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -208,7 +208,8 @@ body {
 }
 
 .section {
-  padding: 94px 94px;
+  padding-top: 94px;
+  padding-bottom: 94;
 }
 .section-title {
   font-weight: 700;
@@ -281,11 +282,14 @@ body {
   color: var(--primary-text-color);
   background-color: var(--accent-color);
 }
-.button-bottom {
+.header-container-button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   margin-bottom: 56px;
 }
 
-. .section-caption {
+.section-caption {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
@@ -323,6 +327,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   margin-bottom: 9px;
+  margin-top: 20px;
 }
 
 .items-contacts {
