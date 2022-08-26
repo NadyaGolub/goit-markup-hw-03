@@ -67,10 +67,12 @@ body {
 
 .logo-web {
     color: var(--accent-color);
+    text-decoration: none;
     Font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
+    
     }
           
 .logo-studio {color: var(--logo-text-color);
@@ -80,6 +82,7 @@ body {
     line-height: 1.2;
     position: absolute;
     margin-right: 93px;
+   
     }
 
     
@@ -156,6 +159,7 @@ body {
 .hero-list {
     display: flex;
     align-items: center;
+    
 }
 
 
@@ -222,7 +226,13 @@ body {
     line-height: 1.2;
     text-align: center;
        }
+.image {
+    margin-bottom: 30px;
+}
 
+    .img-list {
+        margin-right: 30px;
+    }
 /* Основний контент сторінки Портфоліо */
 
 
@@ -282,6 +292,7 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
+    margin-bottom: 9px;
     }
 
 .items-contacts {
@@ -289,6 +300,7 @@ body {
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
+    margin-bottom: 9px;
      }
 .items-contacts:hover, .items-contacts:focus {
   color: var(--accent-color);
