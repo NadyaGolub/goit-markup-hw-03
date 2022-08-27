@@ -34,7 +34,6 @@ img {
 }
 
 body {
-  background-color: var(--brand-bg-color);
   color: var(--title-text-color);
   font-family: 'Roboto', 'sans-serif';
   letter-spacing: 0.03em;
@@ -63,7 +62,6 @@ body {
 
 .item {
   width: 370px;
-  border-bottom: 1px solid #eeeeee;
 }
 
 .nav {
@@ -157,8 +155,9 @@ body {
 
 /* Основний контент сторінки Студія*/
 
-.hero {
+.section-hero {
   background-color: var(--brand-color);
+  padding: 200px 0;
 }
 .hero-title {
   color: var(--primary-text-color);
@@ -173,6 +172,7 @@ body {
 
 .hero-list {
   display: flex;
+  gap: 30px;
 }
 .visually-hidden {
   position: absolute;
@@ -216,7 +216,6 @@ body {
   line-height: 1.1;
   text-transform: uppercase;
   margin-bottom: 10px;
-  margin-right: 30px;
 }
 
 .section-headline {
@@ -250,13 +249,14 @@ body {
   text-align: center;
 }
 .image {
+  padding-top: 30px;
   margin-bottom: 30px;
 }
 
-.img-list {
-  margin-right: 30px;
-  margin-bottom: 94px;
+.team {
+  background-color: #f5f4fa;
 }
+
 /* Основний контент сторінки Портфоліо */
 
 .button {
@@ -282,13 +282,25 @@ body {
   color: var(--primary-text-color);
   background-color: var(--accent-color);
 }
+
+.portfolio-button:not(:last-child) {
+  margin-right: 8px;
+}
 .header-container-button {
   align-items: center;
   display: flex;
   justify-content: center;
   margin-bottom: 56px;
 }
-
+.item-project {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
 .section-caption {
   color: var(--title-text-color);
   font-weight: 700;
@@ -313,6 +325,17 @@ body {
   padding-bottom: 60px;
 }
 
+.logo-web-footer {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  display: block;
+  margin-bottom: 20px;
+}
+
 .logo-studio-text {
   color: var(--primary-text-color);
   font-family: 'Raleway';
@@ -327,7 +350,10 @@ body {
   font-size: 14px;
   line-height: 1.7;
   margin-bottom: 9px;
-  margin-top: 20px;
+}
+
+.footer-contacts:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .items-contacts {
