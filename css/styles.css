@@ -210,6 +210,14 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.section-work {
+  padding-bottom: 94px;
+}
+
+.text-priority {
+  width: 270px;
+}
 .section-title {
   font-weight: 700;
   font-size: 14px;
@@ -250,7 +258,7 @@ body {
 }
 .image {
   padding-top: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .team {
